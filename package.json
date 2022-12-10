@@ -9,6 +9,14 @@
   "engines": {
     "node": "16.x"
   },
+  "scripts": {
+    "lint": "yarn contract:lint && yarn interface:lint",
+    "contract:lint": "yarn workspace contract lint",
+    "contract:compile": "yarn workspace contract compile",
+    "contract:test": "yarn workspace contract test",
+    "interface:lint": "yarn workspace interface lint",
+    "interface:dev": "yarn workspace interface dev"
+  },
   "workspaces": {
     "packages": [
       "packages/*"

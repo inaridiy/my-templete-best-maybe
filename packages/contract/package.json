@@ -1,6 +1,12 @@
 {
   "name": "contract",
   "packageManager": "yarn@3.3.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "lint": "eslint --cache --fix (scripts|test)/* && prettier --write (scripts|test)/*"
+  },
   "devDependencies": {
     "@ethersproject/abi": "^5.7.0",
     "@ethersproject/providers": "^5.7.2",
