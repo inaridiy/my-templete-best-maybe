@@ -5,6 +5,13 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@account-abstraction/contracts@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@account-abstraction/contracts@npm:0.3.0"
+  checksum: 3034cd919bb01bb99c84ccdadaa0b01bd9056c3a13c669c535665a23c4f431db0dc97a8a3287e0e15951267ca0b99a4d4b51326b9a02dcc64aee92ae392f1195
+  languageName: node
+  linkType: hard
+
 "@eslint/eslintrc@npm:^1.3.3":
   version: 1.3.3
   resolution: "@eslint/eslintrc@npm:1.3.3"
@@ -886,6 +893,13 @@ __metadata:
     mkdirp: ^1.0.4
     rimraf: ^3.0.2
   checksum: 52dc02259d98da517fae4cb3a0a3850227bdae4939dda1980b788a7670636ca2b4a01b58df03dd5f65c1e3cb70c50fa8ce5762b582b3f499ec30ee5ce1fd9380
+  languageName: node
+  linkType: hard
+
+"@openzeppelin/contracts-upgradeable@npm:^4.8.0":
+  version: 4.8.0
+  resolution: "@openzeppelin/contracts-upgradeable@npm:4.8.0"
+  checksum: c39f3a719830c068d0ae413a8beee4072fa19f777b55bf6155fe21023414eab0633a641318845ac50929837b71848de1efbd00d4c181ddd6d8b735ceb0a82070
   languageName: node
   linkType: hard
 
@@ -2364,6 +2378,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "contract@workspace:packages/contract"
   dependencies:
+    "@account-abstraction/contracts": ^0.3.0
     "@ethersproject/abi": ^5.7.0
     "@ethersproject/providers": ^5.7.2
     "@nomicfoundation/hardhat-chai-matchers": ^1.0.5
@@ -2371,6 +2386,7 @@ __metadata:
     "@nomicfoundation/hardhat-toolbox": ^2.0.0
     "@nomiclabs/hardhat-ethers": ^2.2.1
     "@nomiclabs/hardhat-etherscan": ^3.1.3
+    "@openzeppelin/contracts-upgradeable": ^4.8.0
     "@typechain/ethers-v5": ^10.1.1
     "@typechain/hardhat": ^6.1.4
     chai: ^4.3.7
